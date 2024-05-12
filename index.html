@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04ccb70358.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="primary-container">
+            
+            <label for="userinput">Number Of Colors</label>
+            <input type="number" name="userinput" id="userinput" min="1" value="1">
+
+            <div>
+                <button id="refreshButton" onclick="generateRandomColors()"> <i class="fa-solid fa-repeat"></i> Refresh</button>
+            </div>
+        </div>
+        
+        <div class="color-container" id="colorContainer">
+            <!-- Color containers will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
